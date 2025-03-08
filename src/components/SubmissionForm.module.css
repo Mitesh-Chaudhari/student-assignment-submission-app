@@ -1,0 +1,89 @@
+.formContainer {
+    background-color: white;
+    border-radius: 0.5rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+  }
+  
+  .formTitle {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+  }
+  
+  .formGroup {
+    margin-bottom: 1rem;
+  }
+  
+  .formLabel {
+    display: block;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+  }
+  
+  .formInput,
+  .formTextarea {
+    width: 100%;
+    padding: 0.5rem 0.75rem;
+    border: 1px solid var(--border-color);
+    border-radius: 0.375rem;
+    font-size: 1rem;
+  }
+  
+  .formInput:focus,
+  .formTextarea:focus {
+    outline: none;
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.25);
+  }
+  
+  .formTextarea {
+    min-height: 100px;
+    resize: vertical;
+  }
+  
+  .fileInputContainer {
+    display: flex;
+    align-items: center;
+  }
+  
+  .fileInputLabel {
+    flex: 1;
+    cursor: pointer;
+    background-color: #f3f4f6;
+    padding: 0.5rem 0.75rem;
+    border: 1px solid var(--border-color);
+    border-radius: 0.375rem;
+  }
+  
+  .fileInputLabel:hover {
+    background-color: #e5e7eb;
+  }
+  
+  .fileInput {
+    display: none;
+  }
+  
+  .submitButton {
+    width: 100%;
+    padding: 0.5rem 1rem;
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: 0.375rem;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submitButton:hover:not(:disabled) {
+    background-color: var(--primary-hover);
+  }
+  
+  .submitButton:disabled {
+    background-color: #93c5fd;
+    cursor: not-allowed;
+  }
+  
+  

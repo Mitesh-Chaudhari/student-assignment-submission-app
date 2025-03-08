@@ -1,0 +1,58 @@
+[
+    {
+      "id": 1,
+      "title": "Introduction to React",
+      "description": "Create a simple React application that demonstrates the use of components, props, and state.",
+      "dueDate": "2023-12-15",
+      "course": "Web Development",
+      "instructions": "Build a small React application that includes at least 3 components. Use props to pass data between components and implement state management for at least one interactive feature. Submit your code as a GitHub repository link.",
+      "status": "pending"
+    },
+    {
+      "id": 2,
+      "title": "Data Structures Implementation",
+      "description": "Implement a linked list and binary search tree in JavaScript.",
+      "dueDate": "2023-12-10",
+      "course": "Data Structures & Algorithms",
+      "instructions": "Create JavaScript implementations of a singly linked list and a binary search tree. Include methods for insertion, deletion, and traversal for both data structures. Write tests to verify your implementations work correctly.",
+      "status": "pending"
+    },
+    {
+      "id": 3,
+      "title": "Database Design Project",
+      "description": "Design a relational database for a library management system.",
+      "dueDate": "2023-12-20",
+      "course": "Database Systems",
+      "instructions": "Create an ER diagram for a library management system that tracks books, members, loans, and returns. Implement the schema in SQL and include sample queries for common operations like checking out a book or finding overdue loans.",
+      "status": "pending"
+    },
+    {
+      "id": 4,
+      "title": "Machine Learning Classification",
+      "description": "Implement a classification algorithm on a provided dataset.",
+      "dueDate": "2023-12-25",
+      "course": "Artificial Intelligence",
+      "instructions": "Using the provided dataset, implement a classification algorithm of your choice (decision tree, SVM, neural network, etc.). Train your model, evaluate its performance, and write a report explaining your approach and results.",
+      "status": "pending"
+    },
+    {
+      "id": 5,
+      "title": "Mobile App UI Design",
+      "description": "Design a user interface for a mobile fitness tracking application.",
+      "dueDate": "2023-12-18",
+      "course": "UI/UX Design",
+      "instructions": "Create wireframes and high-fidelity mockups for a fitness tracking mobile application. The app should include screens for user registration, activity tracking, goal setting, and progress visualization. Submit your designs as Figma or Adobe XD files.",
+      "status": "pending"
+    },
+    {
+      "id": 6,
+      "title": "Network Security Analysis",
+      "description": "Analyze network traffic and identify security vulnerabilities.",
+      "dueDate": "2023-12-22",
+      "course": "Cybersecurity",
+      "instructions": "Using Wireshark, capture and analyze network traffic on a test network. Identify potential security issues and recommend mitigation strategies. Document your findings in a comprehensive report.",
+      "status": "pending"
+    }
+  ]
+  
+  
